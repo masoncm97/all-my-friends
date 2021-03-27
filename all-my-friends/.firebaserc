@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "all-my-friends-da97c": {
+      "hosting": {
+        "all-my-friends": [
+          "all-my-friends-da97c"
+        ]
+      }
+    }
+  }
+}

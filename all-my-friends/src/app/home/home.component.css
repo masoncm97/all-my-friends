@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid red;
 }
 
 #horizontal-rule {
@@ -20,8 +19,16 @@
     text-align: center;
 }
 
-#amf-main-logo {
+.amf-logo {
     min-width: 275px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
 }
 
 #body-container {

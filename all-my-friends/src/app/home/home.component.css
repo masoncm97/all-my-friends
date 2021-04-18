@@ -1,4 +1,4 @@
-h1, h4 {
+p, h1 {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -6,15 +6,26 @@ h1, h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 50%;
+    border: 1px solid red;
 }
 
 #horizontal-rule {
     width: 70%;
 }
 
-#amf-main-logo {
+#opening-soon {
+    width: 100%;
+    font-weight: bold;
+}
+
+#opening-soon-container {
     width: 50%;
+    min-width: 150px;
+    text-align: center;
+}
+
+#amf-main-logo {
+    min-width: 275px;
 }
 
 #body-container {

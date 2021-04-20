@@ -1,0 +1,10 @@
+#context-container {
+    border: 1px solid red;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) {
+    #mobile-nav-bar {
+        display: none;
+    }
+}

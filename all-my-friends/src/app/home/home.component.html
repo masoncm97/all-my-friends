@@ -1,11 +1,11 @@
-<div id ='home-container'>
-    <img class='amf-logo visible 0' id='amf-red' src="../assets/amf-red.svg" alt="amf-red">
-    <img class='amf-logo hidden 1' id='amf-yellow' src="../assets/amf-yellow.svg" alt="amf-yellow">
-    <img class='amf-logo hidden 2' id='amf-blue' src="../assets/amf-blue.svg" alt="amf-blue">
-    <img class='amf-logo hidden 3' id='amf-green' src="../assets/amf-green.svg" alt="amf-green">
-    <img class='amf-logo hidden 4' id='amf-purple' src="../assets/amf-purple.svg" alt="amf-purple">
-    <img class='amf-logo hidden 5' id='amf-orange' src="../assets/amf-orange.svg" alt="amf-orange">
-    <img class='amf-logo hidden 6' id='amf-outline' src="../assets/amf-outline.svg" alt="amf-outline">
+<div class='flex-column-container'>
+    <img class='amf-logo 0' id='amf-outline' src="../assets/amf-black-outline.svg" alt="amf-outline">
+    <img class='amf-logo hidden 1' id='amf-red' src="../assets/amf-red-outline.svg" alt="amf-red">
+    <img class='amf-logo hidden 2' id='amf-yellow' src="../assets/amf-yellow-outline.svg" alt="amf-yellow">
+    <img class='amf-logo hidden 3' id='amf-blue' src="../assets/amf-blue-outline.svg" alt="amf-blue">
+    <img class='amf-logo hidden 4' id='amf-green' src="../assets/amf-green-outline.svg" alt="amf-green">
+    <img class='amf-logo hidden 5' id='amf-purple' src="../assets/amf-purple-outline.svg" alt="amf-purple">
+    <img class='amf-logo hidden 6' id='amf-orange' src="../assets/amf-orange-outline.svg" alt="amf-orange">
     <div id='opening-soon-container'>
         <h1 id='opening-soon'>opening soon</h1>
     </div>
@@ -14,5 +14,8 @@
         <p>Welcome to a historical process.</p>
         <p>We are accepting all forms of art.</p>
         <p>Submit at amfstudiospace@gmail.com</p>
+    </div>
+    <div id='mobile-nav-bar'>
+        <a class='navbar-item' [routerLink]="['/context']" routerLinkActive="hidden">context</a>
     </div>
 </div>

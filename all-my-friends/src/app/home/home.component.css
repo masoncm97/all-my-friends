@@ -36,8 +36,12 @@
 }
 
 /* Tablet Styles */
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 600px) {
     #mobile-nav-bar {
+        display: none;
+    }
+
+    .horizontal-rule {
         display: none;
     }
 }

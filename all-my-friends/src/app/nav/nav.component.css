@@ -6,7 +6,7 @@
     margin: 25px 50px 0px 0px;
 }
 /* Tablet Styles */
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 600px) {
     #nav-container {
         width: 100%;
         display: flex;

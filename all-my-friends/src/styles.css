@@ -42,3 +42,10 @@ a:visited {
     color: black;
 }
 
+#horizontal-rule {
+    width: 70%;
+}
+
+.flex-column-container {
+    padding: 10% 30% 10% 30%;
+}

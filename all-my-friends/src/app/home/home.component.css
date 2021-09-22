@@ -1,68 +1,27 @@
-#home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#opening-soon {
-    width: 100%;
-    font-weight: bold;
-}
-
-#opening-soon-container {
-    width: 50%;
-    min-width: 150px;
-    text-align: center;
-}
-
-.amf-logo {
-    min-width: 275px;
-}
-
-.visible {
-    display: block;
-}
-
-#body-container {
-    text-align: center;
-}
-
-#mobile-nav-bar {
-    margin-top: 40px;
-}
-
-#mobile-home-container {
-    display: none;
-}
-
 /* Mobile Styles */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 400px) {
     #mobile-home-container {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     #home-container {
         display: none;
     }
-
-    #context {
-        width: 100%;
-        padding-bottom: 40px;
-    }
-
-    .mobile-character {
-        border: 1px solid black;
-    }
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 600px) {
-    #mobile-nav-bar {
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    #mobile-home-container {
         display: none;
     }
-
-    .horizontal-rule {
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    #mobile-home-container {
         display: none;
     }
-}
+  }

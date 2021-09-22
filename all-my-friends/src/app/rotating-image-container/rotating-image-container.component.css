@@ -1,0 +1,25 @@
+#rotating-image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 80%;
+}
+
+.bw {
+
+    margin-top: 45px;
+}
+
+.flexible-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}

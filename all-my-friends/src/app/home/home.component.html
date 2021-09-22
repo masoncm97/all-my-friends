@@ -1,25 +1,9 @@
-<div id='home-container' class='flex-column-container'>
-    <img class='amf-logo 0' id='amf-outline' src="../assets/amf-black-outline.svg" alt="amf-outline">
-    <img class='amf-logo hidden 1' id='amf-red' src="../assets/amf-red-outline.svg" alt="amf-red">
-    <img class='amf-logo hidden 2' id='amf-yellow' src="../assets/amf-yellow-outline.svg" alt="amf-yellow">
-    <img class='amf-logo hidden 3' id='amf-blue' src="../assets/amf-blue-outline.svg" alt="amf-blue">
-    <img class='amf-logo hidden 4' id='amf-green' src="../assets/amf-green-outline.svg" alt="amf-green">
-    <img class='amf-logo hidden 5' id='amf-purple' src="../assets/amf-purple-outline.svg" alt="amf-purple">
-    <img class='amf-logo hidden 6' id='amf-orange' src="../assets/amf-orange-outline.svg" alt="amf-orange">
-    <div id='opening-soon-container'>
-        <h1 id='opening-soon'>opening soon</h1>
-    </div>
-    <img id='horizontal-rule' src="../assets/horizontal-rule.svg" alt="horizontal-rule">
-    <div id='body-container'>
-        <p>Welcome to a historical process.</p>
-        <p>We are accepting all forms of art.</p>
-        <p>Submit at amfstudiospace@gmail.com</p>
-    </div>
-    <div id='mobile-nav-bar'>
-        <a class='navbar-item' [routerLink]="['/context']" routerLinkActive="hidden">context</a>
-    </div> 
+<div id="mobile-home-container">
+    <app-rotating-image-container [interval]="5000"></app-rotating-image-container>
 </div>
-<div id='mobile-home-container'>
-    <img class='mobile-character' src="../assets/rb.svg" alt="Roland Barthes">
-    <img id='context' src="../assets/mobile-content-3.svg" alt="mobile-context">
+<div id="home-container">
+    <app-rotating-image-container [interval]="5000"></app-rotating-image-container>
+</div>
+<div id="scrolling-text-container">
+    <app-scrolling-text-component></app-scrolling-text-component>
 </div>

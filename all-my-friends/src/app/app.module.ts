@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ContextComponent } from './context/context.component';
+import { RotatingImageContainerComponent } from './rotating-image-container/rotating-image-container.component';
+import { ScrollingTextComponentComponent } from './scrolling-text-component/scrolling-text-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContextComponent,
-    NavComponent
+    NavComponent,
+    RotatingImageContainerComponent,
+    ScrollingTextComponentComponent
   ],
   imports: [
     BrowserModule,

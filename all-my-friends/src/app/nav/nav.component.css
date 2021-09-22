@@ -1,15 +1,31 @@
-#nav-container {
-   display: none;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px solid red;
 }
 
-.non-mobile-nav-item {
-    margin: 25px 50px 0px 0px;
+.nav-link {
+    text-decoration: none;
+    font: Helvetica;
+    font-weight: 350;
+    font-size: large;
 }
-/* Tablet Styles */
-@media only screen and (min-width: 600px) {
-    #nav-container {
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .navbar {
+        display: none;
+    }
+
+    #logo {
+        font-size: 25px;
     }
 }

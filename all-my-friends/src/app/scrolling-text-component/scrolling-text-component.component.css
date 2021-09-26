@@ -48,7 +48,7 @@
   }
 
   /* Mobile Styles */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .marquee {
     margin-left: 10%;
     margin-right: 10%;

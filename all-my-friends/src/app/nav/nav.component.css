@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    border: 1px solid red;
 }
 
 .nav-link {
@@ -21,7 +20,7 @@
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-    .navbar {
+    #navbar-container {
         display: none;
     }
 

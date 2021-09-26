@@ -1,14 +1,55 @@
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
-    #mobile-home-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
 
     #home-container {
+      width: 100vw;
+      height: 100vh;
+      top: 0;
+      right: 0;
+      display: flex;
+      position: fixed;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #mobile-landing-container {
+      display: flex;
+      justify-content: space-between;
+      height: 70%;
+    }
+
+    #non-mobile-home-container, #scrolling-text-container {
         display: none;
+    }
+
+    #logo {
+      font-size: 25px;
+      font-weight: normal;
+      margin-left: 10%;
+    }
+
+    #hamburger {
+      width: 7%;
+      margin-right: 10%;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+
+    #mobile-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #mobile-scrolling-text-container {
+      padding-top: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
   }
   

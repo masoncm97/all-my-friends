@@ -1,9 +1,18 @@
-<div id="mobile-home-container">
-    <app-rotating-image-container [interval]="5000"></app-rotating-image-container>
-</div>
 <div id="home-container">
-    <app-rotating-image-container [interval]="5000"></app-rotating-image-container>
-</div>
-<div id="scrolling-text-container">
-    <app-scrolling-text-component></app-scrolling-text-component>
+    <div class="logo-container">
+        <a id='logo' class='navbar-item non-mobile-nav-item' [routerLink]="['/home']" >A.M.F.</a>
+        <img id='hamburger' class='hamburger' src='../assets/hamburger.svg' alt='hamburger'>
+    </div>
+    <div id="mobile-landing-container">
+        <app-rotating-image-container id="mobile-image-container" [interval]="5000"></app-rotating-image-container>
+    </div>
+    <div id="mobile-scrolling-text-container">
+        <app-scrolling-text-component></app-scrolling-text-component>
+    </div>
+    <!-- <div id="non-mobile-home-container">
+        <app-rotating-image-container [interval]="5000"></app-rotating-image-container>
+    </div>
+    <div id="scrolling-text-container">
+        <app-scrolling-text-component></app-scrolling-text-component>
+    </div> -->
 </div>

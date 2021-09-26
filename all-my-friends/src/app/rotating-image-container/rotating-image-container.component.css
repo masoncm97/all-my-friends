@@ -1,6 +1,11 @@
 #rotating-image-container {
+    max-width: inherit;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex: 1;
+    /* min-height: 400px; */
+    /* height: 90%; */
 }
 
 .image {
@@ -8,16 +13,8 @@
 }
 
 .bw {
-
-    margin-top: 45px;
+    padding-top: 45px;
 }
-
-.flexible-container {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-}
-
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
